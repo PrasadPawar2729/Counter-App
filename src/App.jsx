@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 import './App.css'
-import { CounterView } from './Components/CounterView'
+import { CounterView } from './view/CounterView'
 
 function App() {
 

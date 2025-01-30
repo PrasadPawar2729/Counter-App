@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { CounterModel } from '../Model/CounterModel';
 import { CounterIntent } from '../Intents/CounterIntent';
+import '../view/counterViewStyle.css'
 
 export const CounterView = () => {
   const [count, setCount] = useState(CounterModel.counter$.getValue());
